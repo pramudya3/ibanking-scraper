@@ -1,0 +1,24 @@
+environment: "development"
+
+server:
+  skipAuth: true
+  cors: true
+  port: 8080
+  timeoutContext: 10
+  logLevel: DEBUG
+
+hashid:
+  salt: super-secret-mpn
+  minLenght: 10
+
+database:
+  debug: true
+  host: <host>
+  port: <port>
+  user: <user>
+  name: <name>
+  password: <pass>
+  maxIdleConns: 30
+  maxOpenConns: 50
+  timezone: Asia/Jakarta
+  ssl: disable
